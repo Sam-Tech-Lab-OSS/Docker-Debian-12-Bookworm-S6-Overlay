@@ -12,7 +12,7 @@
     </td>
     <td align="center" width="50%">
       <a href="https://hub.docker.com/r/samtechlab/debian-12-bookworm-s6" target="_blank">
-        <img src="https://raw.githubusercontent.com/Sam-Tech-Lab-OSS/Images/refs/heads/main/Debian-Logo-100.jpg?sanitize=true"
+        <img src="https://raw.githubusercontent.com/Sam-Tech-Lab-Git/Images/refs/heads/main/Debian-Logo-100.jpg?sanitize=true"
              alt="Debian Logo" width="180"/>
       </a>
     </td>
