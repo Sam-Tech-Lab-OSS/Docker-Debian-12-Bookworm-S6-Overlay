@@ -1,0 +1,15 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Signaler une vulnérabilité / Report a vulnerability
+    url: https://github.com/Sam-Tech-Lab-OSS/Docker-Debian-12-Bookworm-S6-Overlay/security/advisories/new
+    about: >-
+      N'ouvrez pas d'issue publique. Utilisez le signalement privé GitHub.
+      / Do not open a public issue. Use GitHub private vulnerability reporting.
+
+  - name: Vulnérabilité sans correctif amont / CVE with no upstream fix
+    url: https://github.com/Sam-Tech-Lab-OSS/Docker-Debian-12-Bookworm-S6-Overlay#base-image-support-status
+    about: >-
+      Les analyses incluent volontairement les CVE que Debian n'a pas encore
+      corrigées ; c'est documenté. / Scans deliberately include CVEs Debian
+      has not fixed yet, by design.
