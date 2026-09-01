@@ -2,7 +2,7 @@ name: Veille s6-overlay
 
 on:
   schedule:
-    - cron: "45 5 * * 1" # chaque lundi à 05h45 UTC
+    - cron: "15 6 * * 1" # chaque lundi à 06h15 UTC
   workflow_dispatch:
 
 concurrency:
@@ -36,8 +36,6 @@ jobs:
             exit 1
           fi
 
-          # Appel authentifié : les quotas anonymes de l'API sont vite atteints
-          # sur un runner partagé.
           DERNIERE=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" \
                        https://api.github.com/repos/just-containers/s6-overlay/releases/latest \
                      | jq -r '.tag_name // empty' | sed 's/^v//')
@@ -67,8 +65,6 @@ jobs:
           set -euo pipefail
           TITRE="s6-overlay ${V} est disponible"
 
-          # Comparaison exacte sur le titre plutôt qu'une recherche : pas de
-          # doublon si le workflow retourne la semaine suivante.
           DEJA=$(gh issue list --state open --limit 100 --json title \
                    --jq ".[] | select(.title == \"${TITRE}\") | .title" || true)
           if [ -n "${DEJA}" ]; then
