@@ -10,7 +10,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-      time: "023:00"
+      time: "03:30"
       timezone: "Europe/Paris"
     groups:
       github-actions:
@@ -22,5 +22,5 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-      time: "03:00"
+      time: "03:30"
       timezone: "Europe/Paris"
