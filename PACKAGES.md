@@ -8,8 +8,8 @@ modifiez pas à la main : il est réécrit au relevé suivant.*
 
 - **Image** : `ghcr.io/sam-tech-lab-oss/debian-12-bookworm-s6`
 - **Version** : `12`
-- **Digest** : `sha256:bea1be8c59c6391bb0bef92e360f90d69b24413fb05e9406366bf39da8c614c1`
-- **Built / Construite le** : 2026-09-01T09:38:55Z
+- **Digest** : `sha256:906c7401889ffcc37297ad084132dd0ede18ad0bf4fdfbfec3831d69dbd07b18`
+- **Built / Construite le** : 2026-10-01T09:18:25Z
 - **Architecture surveyed / Architecture relevée** : `linux/amd64`
 - **Packages / Paquets** : 135
 
@@ -96,7 +96,7 @@ paquets ; seuls les binaires diffèrent.*
 | libksba8 | `1.6.3-2` |
 | libldap-2.5-0 | `2.5.13+dfsg-5` |
 | liblz4-1 | `1.9.4-1` |
-| liblzma5 | `5.4.1-1+deb12u1` |
+| liblzma5 | `5.4.1-1+deb12u2` |
 | libmd0 | `1.0.4-2` |
 | libmount1 | `2.38.1-5+deb12u3` |
 | libncursesw6 | `6.4-4` |
@@ -109,7 +109,7 @@ paquets ; seuls les binaires diffèrent.*
 | libpam-modules-bin | `1.5.2-6+deb12u2` |
 | libpam-runtime | `1.5.2-6+deb12u2` |
 | libpam0g | `1.5.2-6+deb12u2` |
-| libpcre2-8-0 | `10.42-1` |
+| libpcre2-8-0 | `10.42-1+deb12u1` |
 | libpsl5 | `0.21.2-1` |
 | libreadline8 | `8.2-1.3` |
 | librtmp1 | `2.4+20151223.gitfa8646d.1-2+b2` |
@@ -123,8 +123,8 @@ paquets ; seuls les binaires diffèrent.*
 | libsmartcols1 | `2.38.1-5+deb12u3` |
 | libsqlite3-0 | `3.40.1-2+deb12u2` |
 | libss2 | `1.47.0-2+b2` |
-| libssh2-1 | `1.10.0-3+b1` |
-| libssl3 | `3.0.20-1~deb12u2` |
+| libssh2-1 | `1.10.0-3+deb12u1` |
+| libssl3 | `3.0.22-1~deb12u1` |
 | libstdc++6 | `12.2.0-14+deb12u1` |
 | libsystemd0 | `252.39-1~deb12u2` |
 | libtasn1-6 | `4.19.0-2+deb12u1` |
@@ -142,7 +142,7 @@ paquets ; seuls les binaires diffèrent.*
 | ncurses-base | `6.4-4` |
 | ncurses-bin | `6.4-4` |
 | netcat-openbsd | `1.219-1` |
-| openssl | `3.0.20-1~deb12u2` |
+| openssl | `3.0.22-1~deb12u1` |
 | passwd | `1:4.13+dfsg1-1+deb12u2` |
 | perl-base | `5.36.0-7+deb12u3` |
 | pinentry-curses | `1.2.1-1` |
@@ -151,7 +151,7 @@ paquets ; seuls les binaires diffèrent.*
 | sensible-utils | `0.0.17+nmu1` |
 | sysvinit-utils | `3.06-4` |
 | tar | `1.34+dfsg-1.2+deb12u1` |
-| tzdata | `2026b-0+deb12u1` |
+| tzdata | `2026c-0+deb12u1` |
 | usr-is-merged | `37~deb12u1` |
 | util-linux | `2.38.1-5+deb12u3` |
 | util-linux-extra | `2.38.1-5+deb12u3` |
