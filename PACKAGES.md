@@ -8,8 +8,8 @@ modifiez pas à la main : il est réécrit au relevé suivant.*
 
 - **Image** : `ghcr.io/sam-tech-lab-oss/debian-12-bookworm-s6`
 - **Version** : `12`
-- **Digest** : `sha256:906c7401889ffcc37297ad084132dd0ede18ad0bf4fdfbfec3831d69dbd07b18`
-- **Built / Construite le** : 2026-10-01T09:18:25Z
+- **Digest** : `sha256:ff276ee148938b44455c771c8aac9daba59af43f2b70dc70894a02791aaeab0d`
+- **Built / Construite le** : 2026-11-01T09:32:58Z
 - **Architecture surveyed / Architecture relevée** : `linux/amd64`
 - **Packages / Paquets** : 135
 
@@ -28,7 +28,7 @@ paquets ; seuls les binaires diffèrent.*
 | base-passwd | `3.6.1` |
 | bash | `5.2.15-2+b13` |
 | bsdutils | `1:2.38.1-5+deb12u3` |
-| ca-certificates | `20250419~deb12u1` |
+| ca-certificates | `20250419~deb12u2` |
 | coreutils | `9.1-1` |
 | cron | `3.0pl1-162` |
 | cron-daemon-common | `3.0pl1-162` |
@@ -57,7 +57,7 @@ paquets ; seuls les binaires diffèrent.*
 | gzip | `1.12-1` |
 | hostname | `3.23+nmu1` |
 | init-system-helpers | `1.65.2+deb12u1` |
-| jq | `1.6-2.1+deb12u2` |
+| jq | `1.6-2.1+deb12u3` |
 | libacl1 | `2.3.1-3` |
 | libapt-pkg6.0 | `2.6.1` |
 | libassuan0 | `2.5.5-5` |
@@ -65,7 +65,7 @@ paquets ; seuls les binaires diffèrent.*
 | libaudit-common | `1:3.0.9-1` |
 | libaudit1 | `1:3.0.9-1` |
 | libblkid1 | `2.38.1-5+deb12u3` |
-| libbrotli1 | `1.0.9-2+b6` |
+| libbrotli1 | `1.0.9-2+deb12u1` |
 | libbsd0 | `0.11.7-2` |
 | libbz2-1.0 | `1.0.8-5+b1` |
 | libc-bin | `2.36-9+deb12u14` |
@@ -88,7 +88,7 @@ paquets ; seuls les binaires diffèrent.*
 | libgssapi-krb5-2 | `1.20.1-2+deb12u5` |
 | libhogweed6 | `3.8.1-2` |
 | libidn2-0 | `2.3.3-1+b1` |
-| libjq1 | `1.6-2.1+deb12u2` |
+| libjq1 | `1.6-2.1+deb12u3` |
 | libk5crypto3 | `1.20.1-2+deb12u5` |
 | libkeyutils1 | `1.6.3-2` |
 | libkrb5-3 | `1.20.1-2+deb12u5` |
@@ -109,12 +109,12 @@ paquets ; seuls les binaires diffèrent.*
 | libpam-modules-bin | `1.5.2-6+deb12u2` |
 | libpam-runtime | `1.5.2-6+deb12u2` |
 | libpam0g | `1.5.2-6+deb12u2` |
-| libpcre2-8-0 | `10.42-1+deb12u1` |
+| libpcre2-8-0 | `10.42-1+deb12u2` |
 | libpsl5 | `0.21.2-1` |
 | libreadline8 | `8.2-1.3` |
 | librtmp1 | `2.4+20151223.gitfa8646d.1-2+b2` |
-| libsasl2-2 | `2.1.28+dfsg-10` |
-| libsasl2-modules-db | `2.1.28+dfsg-10` |
+| libsasl2-2 | `2.1.28+dfsg-10+deb12u1` |
+| libsasl2-modules-db | `2.1.28+dfsg-10+deb12u1` |
 | libseccomp2 | `2.5.4-1+deb12u1` |
 | libselinux1 | `3.4-1+b6` |
 | libsemanage-common | `3.4-1` |
@@ -124,7 +124,7 @@ paquets ; seuls les binaires diffèrent.*
 | libsqlite3-0 | `3.40.1-2+deb12u2` |
 | libss2 | `1.47.0-2+b2` |
 | libssh2-1 | `1.10.0-3+deb12u1` |
-| libssl3 | `3.0.22-1~deb12u1` |
+| libssl3 | `3.0.22-1~deb12u2` |
 | libstdc++6 | `12.2.0-14+deb12u1` |
 | libsystemd0 | `252.39-1~deb12u2` |
 | libtasn1-6 | `4.19.0-2+deb12u1` |
@@ -142,16 +142,16 @@ paquets ; seuls les binaires diffèrent.*
 | ncurses-base | `6.4-4` |
 | ncurses-bin | `6.4-4` |
 | netcat-openbsd | `1.219-1` |
-| openssl | `3.0.22-1~deb12u1` |
+| openssl | `3.0.22-1~deb12u2` |
 | passwd | `1:4.13+dfsg1-1+deb12u2` |
-| perl-base | `5.36.0-7+deb12u3` |
+| perl-base | `5.36.0-7+deb12u4` |
 | pinentry-curses | `1.2.1-1` |
 | readline-common | `8.2-1.3` |
 | sed | `4.9-1+deb12u1` |
 | sensible-utils | `0.0.17+nmu1` |
 | sysvinit-utils | `3.06-4` |
 | tar | `1.34+dfsg-1.2+deb12u1` |
-| tzdata | `2026c-0+deb12u1` |
+| tzdata | `2026f-0+deb12u1` |
 | usr-is-merged | `37~deb12u1` |
 | util-linux | `2.38.1-5+deb12u3` |
 | util-linux-extra | `2.38.1-5+deb12u3` |
